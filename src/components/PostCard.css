@@ -1,0 +1,30 @@
+.post-card {
+  background: #fff;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.post-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.post-card h3 {
+  font-size: 18px;
+  margin: 0 8px 8px 0;
+}
+
+.remove-icon {
+  color: #e74c3c;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.post-card p {
+  font-size: 14px;
+  color: #555;
+  margin: 0;
+}
